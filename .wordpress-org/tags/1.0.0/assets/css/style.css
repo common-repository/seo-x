@@ -1,0 +1,12 @@
+.csf-field-text input {
+    width: 100% !important;
+    max-width: 100%;
+    margin: 0;
+}
+
+/* -----------------------------------
+# Admin menu 
+* -----------------------------------*/
+#toplevel_page_seox-dashboard img {
+    width: 20px;
+}

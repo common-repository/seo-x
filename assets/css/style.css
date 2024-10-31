@@ -1,0 +1,137 @@
+.csf-field-text input {
+    width: 100% !important;
+    max-width: 100%;
+    margin: 0;
+}
+/* -----------------------------------
+# Common Style 
+* -----------------------------------*/
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+/* -----------------------------------
+# Admin menu 
+* -----------------------------------*/
+#toplevel_page_seox-dashboard img {
+    width: 20px;
+}
+
+/* -----------------------------------
+# Admin Dashboard 
+* -----------------------------------*/
+.gird {
+    display: flex;
+}
+
+.seox-box {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 0.9375rem 0.9375rem 0;
+    padding: 1.25rem;
+    text-align: center;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 288px;
+    background: #fff;
+    border: 1px solid #b5bfc9;
+    border-radius: 6px;
+    flex: 0 0 288px;
+}
+
+.seox-box span.dashicons  {
+    font-size: 28px;
+    line-height: 50px;
+    display: inline-block;
+    color: #ccc;
+    border-radius: 6px;
+    background: #eee;
+    height: 50px;
+    width: 50px;
+}
+
+.seox-box .seox-box-content h3 {
+    color: #242628;
+    font-size: 1.0625rem;
+    line-height: 1.5;
+    margin: 1.5rem 0 0.75rem;
+}
+
+.seox-box .seox-box-content p {
+    display: -webkit-box;
+    overflow: hidden;
+    margin-bottom: 0;
+    color: #7f868d;
+    margin-top: 0;
+    min-height: 80px;
+    padding: 0 10px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}
+
+.seox-box-footer {
+    padding-top: 10px;
+}
+
+.seox-box .seox-box-footer .switch {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 24px;
+}
+  
+.seox-box .seox-box-footer  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.seox-box .seox-box-footer  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.seox-box .seox-box-footer .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.seox-box .seox-box-footer  input:checked + .slider {
+    background-color: #2196F3;
+}
+  
+.seox-box .seox-box-footer  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+  
+.seox-box .seox-box-footer input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+/* Rounded sliders */
+.seox-box .seox-box-footer .slider.round {
+    border-radius: 34px;
+}
+  
+.seox-box .seox-box-footer .slider.round:before {
+    border-radius: 50%;
+}
